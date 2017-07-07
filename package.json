@@ -1,0 +1,30 @@
+{
+  "name": "tsclienttemplate",
+  "version": "1.0.0",
+  "description": "TS Client Template with Webpack. Base project tamplate.",
+  "main": "app.ts",
+  "scripts": {
+    "build": "node_modules/.bin/webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/eramella/tsclienttemplate.git"
+  },
+  "keywords": [
+    "typescript",
+    "template"
+  ],
+  "author": "Emanuele Ramella-Paia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eramella/tsclienttemplate/issues"
+  },
+  "homepage": "https://github.com/eramella/tsclienttemplate#readme",
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.2.1",
+    "source-map-loader": "^0.2.1",
+    "typescript": "^2.4.1",
+    "webpack": "^3.1.0",
+    "webpack-dev-server": "^2.5.0"
+  }
+}
